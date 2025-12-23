@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 /* Base layout helpers for the landing page */
+:root {
+  --a-bg: #f8f4f2;
+  --a-primary: #6720ff;
+  --a-primary-hover: #5b1ef0;
+  --a-text: #161616;
+  --a-text-muted: #5b5b5b;
+  --a-border: rgba(0, 0, 0, 0.12);
+}
+
 html,
 body {
   height: 100%;
@@ -10,4 +19,8 @@ body {
 
 body {
   margin: 0;
+  background: var(--a-bg);
+  color: var(--a-text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
 }

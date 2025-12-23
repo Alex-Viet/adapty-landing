@@ -21,19 +21,19 @@ export function Button({
   children,
 }: ButtonProps) {
   const base =
-    "inline-flex items-center justify-center gap-2 rounded-full font-medium transition focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-black";
+    "inline-flex items-center justify-center gap-2 rounded-xl font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(103,32,255,0.35)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--a-bg)]";
 
   const sizes: Record<ButtonSize, string> = {
-    md: "h-11 px-5 text-sm",
-    lg: "h-12 px-6 text-sm",
+    md: "h-12 px-5 text-[14px]",
+    lg: "h-12 px-6 text-[14px]",
   };
 
   const variants: Record<ButtonVariant, string> = {
     primary:
-      "bg-white text-black hover:bg-white/90 active:bg-white/85 shadow-[0_0_0_1px_rgba(255,255,255,0.06),0_12px_30px_-18px_rgba(255,255,255,0.35)]",
+      "bg-[var(--a-primary)] text-white shadow-[0_10px_26px_-18px_rgba(103,32,255,0.55)] hover:bg-[var(--a-primary-hover)] active:bg-[var(--a-primary-hover)]",
     secondary:
-      "bg-white/10 text-white hover:bg-white/14 active:bg-white/10 border border-white/12",
-    ghost: "bg-transparent text-white/80 hover:text-white",
+      "bg-transparent text-[var(--a-primary)] hover:text-[var(--a-primary-hover)] active:text-[var(--a-primary-hover)]",
+    ghost: "bg-transparent text-[var(--a-text)]/70 hover:text-[var(--a-text)]",
   };
 
   const content = (
