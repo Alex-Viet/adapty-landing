@@ -9,7 +9,7 @@ One-page landing inspired by `adapty.io` (header omitted), built with a minimal 
 - **lucide-react** (icons)
 
 ## Links
-- **GitHub repo**: (add after pushing)  
+- **GitHub repo**: https://github.com/Alex-Viet/adapty-landing  
 - **Vercel deploy**: (add after deploying)
 
 ## Requirements
