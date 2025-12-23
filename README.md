@@ -10,7 +10,7 @@ One-page landing inspired by `adapty.io` (header omitted), built with a minimal 
 
 ## Links
 - **GitHub repo**: https://github.com/Alex-Viet/adapty-landing  
-- **Vercel deploy**: (add after deploying)
+- **Vercel deploy**: [(adapty-landing)](https://adapty-landing-pearl.vercel.app/)
 
 ## Requirements
 - **Node.js**: 20+ recommended
